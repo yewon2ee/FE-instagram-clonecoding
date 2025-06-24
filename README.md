@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# 🦁 멋쟁이사자처럼 13기 클론코딩 과제
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 프로젝트 소개
+- 멋쟁이사자처럼 인스타그램 스타일 클론 프로젝트
+- 게시글 리스트, 상세 페이지, 댓글 기능 구현
 
-## Available Scripts
+## 사용 기술
+- React
+- React Router
+- Axios
+- Local JSON 서버
 
-In the project directory, you can run:
+## 기능 요약
+- 메인 페이지에서 게시글 목록 조회
+- 각 게시글 클릭 시 상세 페이지 이동
+- 댓글 작성 및 삭제 기능
+- 존재하지 않는 URL 진입 시 404 페이지로 이동
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 시연 영상
+![시연영상](./instagrampreview.gif)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## 느낀점
+: 처음부터 직접하려고 하니 너무 어려웠습니다 .. 
+무의식적으로 create-react-app을 하였는데 .. 
+다음엔 vite로 시작해야지 라는 생각이 들었고!
+그리고 .. 열심히 만들었는데.. 화면이 그닥 인스타그램 같지 않고 ..
+인스타그램 와이파이 끊긴 버전 같아서 분발해야할 것 같다고 느꼈습니다ㅜㅜ ~ 그리고 레이아웃 분리된 코드 구성 !이 되도록 다시 작성하고싶다고 
+느꼇습니다 제일 어려웟던 부분은 axios 였습니다 전체적으로 처음해봐서
+시행착오가 많았던 것 같습니다 !
+그래도 가장 배운게 많은 과제였던거 같습니다 ! 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
