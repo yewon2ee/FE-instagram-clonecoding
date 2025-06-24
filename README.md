@@ -19,6 +19,7 @@
 
 ## 시연 영상
 ![시연영상](./instagrampreview.gif)
+![추가사진](./notFound.png)
 
 
 ## 느낀점
